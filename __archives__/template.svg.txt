@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="1960"
+   viewBox="0 0 1200 1960"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="template.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.35716108"
+     inkscape:cx="599.16943"
+     inkscape:cy="191.79021"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <!-- Fond & cadre -->
+  <rect
+     id="bg"
+     x="0"
+     y="0"
+     width="1200"
+     height="1960"
+     rx="40"
+     ry="40"
+     fill="#f8f8f8" />
+  <rect
+     id="frame"
+     x="20"
+     y="20"
+     width="1160"
+     height="1920"
+     rx="28"
+     ry="28"
+     fill="none"
+     stroke="#222"
+     stroke-width="4" />
+  <!-- Slot Titre (texte simple) -->
+  <rect
+     id="title_slot"
+     x="60"
+     y="80"
+     width="858.263"
+     height="149.39395"
+     fill="none"
+     stroke="none"
+     style="fill:#ffff9b;fill-opacity:1;stroke-width:1.14854" />
+  <!-- Slot image (illustration/logo) -->
+  <rect
+     id="image_slot"
+     x="59.333954"
+     y="1213.1926"
+     width="360.68561"
+     height="367.36496"
+     fill="#ffffff"
+     stroke="#dddddd"
+     stroke-width="2" />
+  <!-- Slots LaTeX -->
+  <rect
+     id="text1_slot"
+     x="60.629002"
+     y="265.69968"
+     width="1078.7419"
+     height="531.34808"
+     fill="#ffffff"
+     stroke="#cccccc"
+     stroke-width="3.258"
+     inkscape:label="#text1_slot" />
+  <rect
+     id="text2_slot"
+     x="460.01923"
+     y="1208.1"
+     width="644.24438"
+     height="405.69894"
+     fill="#ffffff"
+     stroke="#cccccc"
+     stroke-width="2.20004"
+     inkscape:label="#text1_slot" />
+  <!-- Pied de page -->
+  <rect
+     id="footer_slot"
+     x="60"
+     y="1840"
+     width="1080"
+     height="60"
+     fill="none"
+     stroke="none" />
+</svg>

@@ -1,0 +1,13 @@
+title: "Rapport final 2025"
+
+text1: |
+  Voici un premier bloc de texte avec plusieurs formules inline.
+  La célèbre équation $E=mc^2$ en est une.
+  On peut aussi écrire $\sum_{k=1}^{6} k$ pour illustrer une somme.
+  Et même $\frac{a}{b}$ dans une phrase. Et en mode "bloc"
+  $$\sum_{i=0,\ i\neq j}^n u_{ij}$$
+  avec du texte en plus derrière
+text2: |
+  Bloc secondaire, sans formule ici.
+
+image_path: "./image.png"

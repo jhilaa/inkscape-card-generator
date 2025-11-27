@@ -3,6 +3,7 @@ import re
 import yaml
 import base64
 import cairosvg
+import sys
 from lxml import etree
 from PIL import ImageFont
 from latex_svg import latex_to_svg_code
@@ -11,6 +12,7 @@ from latex_svg import latex_to_svg_code
 # === Constantes ===
 CARDS_DIR = "cards"
 OUT_DIR = "out"
+TEMPLATE_PATH_DEFAULT = "template.svg"
 TEMPLATE_PATH = "template.svg"
 
 
@@ -202,7 +204,7 @@ def export_svg_to_png(svg_path, png_path, scale=1.0):
     except Exception as e:
         print(f"❌ Erreur PNG : {e}")
 
-def process_card(file_path, card_name):
+def process_card(file_path, card_name, template_path):
     config_path = os.path.join(file_path, "config.yml")
     if not os.path.exists(config_path):
         print(f"❌ Pas de config.yml dans {file_path}")
@@ -220,12 +222,12 @@ def process_card(file_path, card_name):
         print(f"❌ Pas de fichier image dans {file_path}")
         return
     
-    tree = etree.parse(TEMPLATE_PATH)
+    tree = etree.parse(template_path)
     root = tree.getroot()
 
-    render_text_in_slot(root=root, slot_id="title_slot", text=config.get("title", ""), font_size=50)
-    render_text_in_slot(root=root, slot_id="text1_slot", text=config.get("text1", ""), font_size=35)
-    render_text_in_slot(root=root, slot_id="text2_slot", text=config.get("text2", ""), font_size=35)
+    render_text_in_slot(root=root, slot_id="title_slot", text=config.get("title", ""), font_size=70)
+    render_text_in_slot(root=root, slot_id="text1_slot", text=config.get("text1", ""), font_size=50)
+    render_text_in_slot(root=root, slot_id="text2_slot", text=config.get("text2", ""), font_size=50)
     render_image_in_slot(root=root, frame_id="image_frame", slot_id="image_slot", image_path=image_path)
 
     os.makedirs(OUT_DIR, exist_ok=True)
@@ -239,11 +241,21 @@ def process_card(file_path, card_name):
     print(f"✅ Carte générée : {card_name}")
     
 def main():
+    
+    # Récupération du paramètre
+    template_from_cli = sys.argv[1] if len(sys.argv) > 1 else None
+    # Si rien passé → utilise le template par défaut
+    template_path = template_from_cli if template_from_cli else TEMPLATE_PATH_DEFAULT
+    if not os.path.exists(template_path):
+        print(f"❌ Template introuvable : {template_path}")
+        return
+    print("📄 Template utilisé :", template_path)
+    
     for file_name in os.listdir(CARDS_DIR):
         file_path = os.path.join(CARDS_DIR, file_name)
         card_name = file_name
         if os.path.isdir(file_path):
-            process_card(file_path, card_name)
+            process_card(file_path, card_name, template_path)
 
 if __name__ == "__main__":
     main()

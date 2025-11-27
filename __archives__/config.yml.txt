@@ -1,0 +1,12 @@
+title: "Rapport final 2025"
+
+text1: |
+  Voici un premier bloc de texte. 
+  On peut y mettre plusieurs phrases, et le script gère le retour à la ligne.
+  Même des formules LaTeX comme $E=mc^2$ pourront être intégrées plus tard.
+  
+text2: |
+  Deuxième bloc de texte, plus court.
+  Idéal pour des notes ou un résumé.
+  
+image: "./image.png"

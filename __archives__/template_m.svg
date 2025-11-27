@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="1676"
+   viewBox="0 0 1200 1676"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="template_m.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;
+  <defs
+   id="defs1" />
+<sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.42"
+   inkscape:cx="567.85714"
+   inkscape:cy="165.47619"
+   inkscape:window-width="1366"
+   inkscape:window-height="697"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1"
+   showgrid="false"
+   showguides="true">
+  <sodipodi:guide
+     position="0,1960"
+     orientation="0,1200"
+     id="guide1"
+     inkscape:locked="false" />
+  <sodipodi:guide
+     position="1200,1960"
+     orientation="1960,0"
+     id="guide2"
+     inkscape:locked="false" />
+  <sodipodi:guide
+     position="1200,0"
+     orientation="0,-1200"
+     id="guide3"
+     inkscape:locked="false" />
+  <sodipodi:guide
+     position="0,0"
+     orientation="-1960,0"
+     id="guide4"
+     inkscape:locked="false" />
+</sodipodi:namedview>
+<!-- Fond & cadre -->
+<rect
+   id="black_background"
+   x="0"
+   y="0"
+   width="1200"
+   height="1676.1886"
+   rx="40"
+   ry="34.207935"
+   fill="#f8f8f8"
+   style="display:inline;fill:#000000;stroke-width:0.92477"
+   inkscape:label="#black_background"
+   sodipodi:insensitive="true" />
+<rect
+   id="white_background"
+   x="11.06138"
+   y="14.053272"
+   width="1177.3878"
+   height="1654.2017"
+   rx="28.419706"
+   ry="24.123768"
+   fill="none"
+   stroke="#222222"
+   stroke-width="3.72271"
+   style="display:inline;fill:#ffffff"
+   inkscape:label="#white_background"
+   transform="matrix(0.99999545,-0.00301618,0,1,0,0)"
+   sodipodi:insensitive="true" />
+<!-- Slot Titre (texte simple) -->
+<!-- Slot image (illustration/logo) -->
+<rect
+   style="fill:#333333;stroke:none;stroke-width:0.92821"
+   id="rect1"
+   width="1173.5588"
+   height="550.65692"
+   x="12.980247"
+   y="1085.3506" />
+<rect
+   id="image_frame"
+   x="24.86417"
+   y="1119.1266"
+   width="456.11099"
+   height="464.55753"
+   fill="#ffffff"
+   stroke="#dddddd"
+   stroke-width="2.52914"
+   style="fill:none;stroke:none" />
+<!-- Slots LaTeX -->
+<image
+   id="image_slot"
+   x="24.86417"
+   y="1119.1266"
+   width="456.11102"
+   height="464.55753"
+   xlink:href=""
+   inkscape:svg-dpi="96"
+   style="display:inline;image-rendering:auto" />
+<rect
+   id="text1_slot"
+   x="42.068157"
+   y="323.41885"
+   width="1115.8636"
+   height="734.48468"
+   fill="#ffffff"
+   stroke="#cccccc"
+   stroke-width="3.89583"
+   inkscape:label="#text1_slot"
+   style="fill:none;stroke:none" />
+<rect
+   id="text2_slot"
+   x="523.85712"
+   y="1119.4788"
+   width="635.84045"
+   height="488.66861"
+   fill="#ffffff"
+   stroke="#cccccc"
+   stroke-width="2.39875"
+   inkscape:label="#text2_slot"
+   style="fill:none;stroke:none" />
+<!-- Pied de page -->
+<rect
+   id="footer_slot"
+   x="60"
+   y="1840"
+   width="1080"
+   height="60"
+   fill="none"
+   stroke="none" />
+<g
+   id="g1"
+   inkscape:label="g1"
+   transform="matrix(1.0430134,0,0,1.5176289,-12.988705,2.7898576)">
+  <rect
+     style="opacity:1;fill:#ffff33;fill-opacity:1;stroke-width:1.31796"
+     id="rect1-8"
+     width="252.8597"
+     height="117.61176"
+     x="144.29437"
+     y="110.2268"
+     transform="matrix(0.97936105,-0.20211859,0.51926342,0.85461424,0,0)" />
+  <rect
+     style="fill:#ffff33;fill-opacity:1;stroke-width:1.17081"
+     id="rect1-8-1"
+     width="209.06459"
+     height="112.25942"
+     x="309.20859"
+     y="162.94794"
+     transform="matrix(0.96965972,-0.24445864,0.44534142,0.89536083,0,0)" />
+  <rect
+     style="fill:#ffff33;fill-opacity:1;stroke-width:1.42083"
+     id="rect1-8-7"
+     width="283.72601"
+     height="121.81873"
+     x="363.43094"
+     y="178.61595"
+     transform="matrix(0.9836427,-0.18013059,0.56498608,0.82510043,0,0)" />
+  <rect
+     style="fill:#ffff33;fill-opacity:1;stroke-width:1.42083"
+     id="rect1-8-5"
+     width="283.72552"
+     height="121.81873"
+     x="-22.831591"
+     y="84.352997"
+     transform="matrix(0.9836427,-0.18013059,0.56498608,0.82510043,0,0)" />
+</g>
+<rect
+   id="title_slot"
+   x="60"
+   y="108.86868"
+   width="686.5542"
+   height="201.32179"
+   fill="none"
+   stroke="none"
+   style="opacity:1;fill:#ffff99;fill-opacity:0;stroke-width:1.19248" />
+</svg>
