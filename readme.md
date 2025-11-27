@@ -1,4 +1,4 @@
-# Automotisation de production de contenu svg et export au format png 
+# Automatisation de production de contenu svg et export au format png 
 
 Ce projet permet de **rendre du texte dans des slots SVG** avec une gestion fine des mots, espaces et styles (taille, police, couleur, gras).  
 Il combine **PIL (Pillow)** pour mesurer la largeur des mots avec précision et **CairoSVG** pour générer un rendu final cohérent.
